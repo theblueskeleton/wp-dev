@@ -1,0 +1,15 @@
+<?php
+/**
+ * Plugin Name: Practice Plugin
+ * Author: Daniel Yordanov 
+ * Author URI: https://danielyordanov.me
+ * Description: This is a playground plugin for the practice session
+ */
+
+
+ if ( is_admin() ) {
+    var_dump( 'YES' );
+ } else {
+        var_dump( 'NO' );
+    }
+?>
